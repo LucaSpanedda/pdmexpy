@@ -2,8 +2,8 @@
 cd (go) ---> INSIDE THE SAME FOLDER OF THE PY SCRIPT, and type on terminal:
 
 for generate random named texts:
-	for i in {1..100}; do python3 pdmex.py >> "pdmexscore"$RANDOM.txt; done
+$	for i in {1..100}; do python3 pdmex.py >> "pdmexscore"$RANDOM.txt; done
 
 
 for generate sequential named texts:
-	for i in {1..100}; do python3 pdmex.py >> "scene"$i.txt; done
+$	for i in {1..100}; do python3 pdmex.py >> "scene"$i.txt; done
